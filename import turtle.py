@@ -21,6 +21,8 @@ def triSelect (list):
     while len(list) > 0:
         var= selectMin(list)
         result.append(var)
+        
+    return result
 
 print(triSelect(12,43,56,85,2,8,6,4,5))
         
